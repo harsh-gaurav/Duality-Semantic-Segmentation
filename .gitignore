@@ -1,0 +1,14 @@
+# Datasets (never upload)
+Offroad_Segmentation_Training_Dataset/
+Offroad_Segmentation_testImages/
+
+# Python junk
+__pycache__/
+*.pyc
+
+# Mac junk
+.DS_Store
+
+# Torch / cache
+.cache/
+
