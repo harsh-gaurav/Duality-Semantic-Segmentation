@@ -12,7 +12,7 @@ The dataset is provided by Duality AI and consists of:
 - Validation split
 - Testing images (without labels)
 
-Dataset source:
+Dataset source:  
 https://www.duality.ai/
 
 The dataset is **not included in this repository** due to size constraints.
@@ -74,22 +74,8 @@ Artifacts are available under:
 An optional `ENV_SETUP/` folder is provided.
 
 Alternatively, create the environment manually:
+
 ```bash
 conda create -n EDU python=3.8
 conda activate EDU
 pip install numpy opencv-python matplotlib pillow tqdm scikit-learn torch torchvision
-
-
----
-
-For reviewer convenience and to meet hackathon submission requirements,  
-the **complete final packaged submission** is also provided as a single ZIP file:
-
-📦 `Duality_Segmentation_Submission.zip`
-
-This ZIP contains **all project files consolidated in one place**, including:
-- Training and inference scripts
-- Final trained model weights
-- Evaluation metrics and visualizations
-- Predictions and failure case analysis
-- Final report (PDF)
