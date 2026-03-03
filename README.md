@@ -48,11 +48,22 @@ Baseline artifacts are available under:
 
 ---
 
+## Final Reported IoU (Hackathon Submission)
+
+**Final Mean IoU (Validation Set): 0.2307**
+
+This score corresponds to the baseline semantic segmentation model trained on the provided Duality AI dataset under CPU-based constraints.  
+Mean Intersection over Union (Mean IoU) is the primary evaluation metric used for segmentation performance assessment.
+
+---
+
 ## Model Improvements
 Two key improvements were applied:
+
 1. **Data Augmentation**
    - RandomHorizontalFlip
    - ColorJitter (brightness, contrast, saturation)
+
 2. **Improved generalization analysis**
    - Visual inspection of failure cases
    - Comparison of per-class IoU
